@@ -1,0 +1,12 @@
+version: '3.2'
+
+services:
+  ionic:
+    image: dhalfaro/ionic:latest
+    privileged: true
+    command: bash
+    ports:
+      - "8100:8100"
+    volumes:
+      - /dev/bus/usb:/dev/bus/usb
+      - .:/project
