@@ -7,6 +7,7 @@ USER root
 ENV LANG="en_US.UTF-8"
 ENV LANGUAGE="en_US:en"
 ENV LC_ALL="en_US.UTF-8"
+ENV ANDROID_SDK_ROOT="/opt/android"
 ENV ANDROID_HOME="/opt/android"
 ENV ANDROID_TOOLS_HOME="/opt/android/tools"
 ENV NODEJS_VERSION=10.16.3
