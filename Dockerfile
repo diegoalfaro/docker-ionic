@@ -20,7 +20,7 @@ RUN apt install -y locales
 RUN locale-gen en_US.UTF-8
 
 # Configurating Android SDK Manager
-ENV PATH="${ANDROID_HOME}:${ANDROID_HOME}/bin:${ANDROID_TOOLS_HOME}:${ANDROID_TOOLS_HOME}/bin:${PATH}"
+ENV PATH="${ANDROID_HOME}:${ANDROID_HOME}/bin:${ANDROID_TOOLS_HOME}:${ANDROID_TOOLS_HOME}/bin:${ANDROID_HOME}/platform-tools:${PATH}"
 RUN chmod 777 $ANDROID_HOME
 RUN chmod 777 -R $ANDROID_HOME
 RUN yes | sdkmanager --update
