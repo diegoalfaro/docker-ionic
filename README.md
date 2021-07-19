@@ -11,5 +11,3 @@
 - And **enjoy your commands!**. 
 
 > **Note:** run ```ionic s --address=0.0.0.0:8100``` for up development server.
-
-Made with :heart: by [Diego Alfaro](https://www.linkedin.com/in/diegoalfaro).
